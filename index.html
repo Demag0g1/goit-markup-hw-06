@@ -359,7 +359,7 @@
                         </ul>
                     </address>
                 </div>
-                <div class="footer-social-link">
+                <div>
                     <h3 class="footer-title">Приєднуйтесь</h3>
                     <ul class="social">
                         <li class="social-list">
@@ -389,7 +389,7 @@
                         </li>
                     </ul>
                 </div>
-                <form class="footer-form">
+                <form>
                     <label for="user_email">
                         <span class="footer-submit">Підпишіться на розсилку</span>
                     </label>
@@ -416,32 +416,34 @@
             <div class="modal-form">
                 <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
                 <form class="form">
-                    <div class="form-label">
-                        <label for="user-name">Ім'я</label>
-                        <input type="text" name="user-name" id="user-name" autofocus />
-                        <svg class="form-img" width="18px" height="18px">
-                            <use href="././images/icon.svg#icon-person"></use>
-                        </svg>
-                    </div>
-                    <div class="form-label">
-                        <label for="user-tel">Телефон</label>
-                        <input type="tel" name="user-tel" id="user-tel" />
-                        <svg class="form-img" width="18px" height="18px">
-                            <use href="././images/icon.svg#icon-phone"></use>
-                        </svg>
-                    </div>
+                    <ul>
+                        <li class="form-label">
+                            <label for="user-name">Ім'я</label>
+                            <input type="text" name="user-name" id="user-name" autofocus />
+                            <svg class="form-img" width="18px" height="18px">
+                                <use href="././images/icon.svg#icon-person"></use>
+                            </svg>
+                        </li>
+                        <li class="form-label">
+                            <label for="user-tel">Телефон</label>
+                            <input type="tel" name="user-tel" id="user-tel" />
+                            <svg class="form-img" width="18px" height="18px">
+                                <use href="././images/icon.svg#icon-phone"></use>
+                            </svg>
+                        </li>
 
-                    <div class="form-label">
-                        <label for="user-email">Пошта</label>
-                        <input type="email" name="user-email" id="user-email" />
-                        <svg class="form-img" width="18px" height="18px">
-                            <use href="././images/icon.svg#icon-email"></use>
-                        </svg>
-                    </div>
-                    <div class="form-label">
-                        <label for="feadback">Коментар</label>
-                        <textarea name="feadback" rows="5" id="feadback" placeholder="Введіть текст"></textarea>
-                    </div>
+                        <li class="form-label">
+                            <label for="user-email">Пошта</label>
+                            <input type="email" name="user-email" id="user-email" />
+                            <svg class="form-img" width="18px" height="18px">
+                                <use href="././images/icon.svg#icon-email"></use>
+                            </svg>
+                        </li>
+                        <li class="form-label textarea">
+                            <label for="feadback">Коментар</label>
+                            <textarea name="feadback" rows="5" id="feadback" placeholder="Введіть текст"></textarea>
+                        </li>
+                    </ul>
 
                     <label class="checkbox-label">
                         <input class="checkbox" type="checkbox" name="agreement" />
